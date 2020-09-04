@@ -1,3 +1,2 @@
 This is a completely working program.
 This has been written in Brainfuck
-++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.
