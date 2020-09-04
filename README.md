@@ -1,15 +1,28 @@
-## Saving your work
-You are working hard on a regular issue while your boss comes in and wants you to fix a bug. State of your current
-working area is a total mess so you don't feel comfortable with making a commit now. However, you need to fix the found
-bug ASAP.
+# Change branch history
+You were working on a regular issue while your boss came in and told you to fix recent bug in an application. Because your
+work on the issue hasn't been done yet, you decided to go back where you started and do a bug fix there.
 
-Git lets you to save your work *on a side* and continue it later. Find appropriate Git tool and use it to handle
-the situation appropriately.
+Your repository look like this:
 
-Look for a bug to remove in `bug.txt`.
+            HEAD
+             |
+    change-branch-history
+             |
+    A <----- B
+     \
+      \----- C
+             |
+         hot-bugfix
+         
+Now you realized that the bug is really annoying and you don't want to continue your work without the fix you have made.
+You wish your repository looked like you started after fixing a bug.
 
-After you commit the bugfix, get back to your work. Finish it by adding a new line to `bug.txt` with 
+                     HEAD
+                      |
+             change-branch-history
+                      |
+    A <----- C <----- B
+             |
+         hot-bugfix
 
-    Finally, finished it!
-
-Then, commit your work after bugfix.
+Achieve that.
