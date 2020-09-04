@@ -1,4 +1,1 @@
-This file contains bug
-It has to be somewhere.
-I feel like I can smell it.
-How this program could work with such bug?
+Finally, finished it!
