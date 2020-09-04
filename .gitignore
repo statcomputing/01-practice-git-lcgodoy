@@ -1,0 +1,4 @@
+libraries/
+*.exe
+*.o
+*.jar
