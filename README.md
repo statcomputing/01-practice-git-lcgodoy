@@ -1,5 +1,2 @@
-## Commit one file of two currently staged
-There are two files created in the root project directory - `A.txt` and `B.txt`. They are both added to the staging 
-area.
-
-The goal is to commit only one of them.
+## Done ...
+Although I have finished the exercises, something went wrong when I tried to change the repo origin to push it here.
